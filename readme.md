@@ -24,6 +24,18 @@ Or manually, after downloading into your `load-path`
 To kill emacs, invoke `kill-emacs`.  Consider binding this to less
 frequently-used keys.
 
+``` {.sourceCode .lisp}
+(evil-leader/set-key
+    "qq" 'kill-emacs
+    "qQ" 'save-buffers-kill-terminal)
+```
+
+## Example
+
+After pressing `C-x C-c`
+
+![Screenshot after pressing `C-x C-c`](https://raw.githubusercontent.com/EricCrosson/avoid-accidental-termination-mode/master/img/demo.png)
+
 ## License
 
 GPL 2 (or higher) © [Free Software Foundation, Inc](http://www.fsf.org/about).
