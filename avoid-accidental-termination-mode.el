@@ -42,7 +42,7 @@
 
 ;;;###autoload
 (define-minor-mode avoid-accidental-termination-mode
-  "TODO: write docstring"
+  "Minor-mode to remove the default `kill-emacs' binding."
   :init-value t
   :lighter nil
   :keymap (let ((map (make-sparse-keymap)))
