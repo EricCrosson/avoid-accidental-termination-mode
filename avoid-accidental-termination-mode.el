@@ -30,12 +30,12 @@
 ;;; Commentary:
 ;;
 ;; Provides a minor-mode that overrides C-x C-c to avoid accidentally
-;; terminating emacs via said keybinding.
+;; terminating Emacs via said keybinding.
 
 ;;; Code:
 
 (defun avoid-accidental-termination-fake-kill-emacs ()
-  "Do not kill emacs."
+  "Do not kill Emacs."
   (interactive)
   (message "I'm sorry, %s. I'm afraid I can't do that." (user-login-name)))
 
