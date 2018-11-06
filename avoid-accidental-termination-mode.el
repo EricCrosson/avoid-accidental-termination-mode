@@ -3,7 +3,7 @@
 ;;; Copyright (C) 2018  Free Software Foundation, Inc.
 ;;
 ;; Author: Eric Crosson <eric.s.crosson@utexas.com>
-;; Version: 1.0.0
+;; Version: 1.0.1
 ;; Keywords: extensions
 ;; URL: https://github.com/EricCrosson/avoid-accidental-termination-mode
 ;; Package-Requires: ((emacs "24"))
